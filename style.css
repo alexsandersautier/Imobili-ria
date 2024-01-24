@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+}
+header{
+    background-color: #B0DDFC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+header>img{
+    width: 150px;
+}
+header>nav>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 10px auto;
+}
+a{
+    color: #000;
+    font-size: 18px;
+}
+.banner{
+    text-align: center;
+}
+.banner>img{
+    width: 80%;
+    margin: 50px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8%;
+}
+.about>h1{
+    font-weight: bold;
+    font-size: 28px;
+}
+.about>h2{
+    color: #7E9CB6;
+}
+.about>img{
+    width: 30%;
+    margin: 15px;
+}
+.about>p{
+    width: 70%;
+    text-align: justify;
+}
+.about>p span{
+    color: #4276A8;
+    font-weight: bold;
+}
+.services{
+    background-color: #1D80C1;
+    color: #fff;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+.services h2{
+    font-weight: bold;
+    margin: 20px;
+}
+.services p{
+    width: 52%;
+    line-height: 32px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.services>p span{
+    color: #e6f820;
+    font-weight: bold;
+}
+.services>ul li{
+    list-style: disc !important;
+    text-align: left;
+    line-height: 32px;
+    font-size: 20px;
+}
+.agent{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+.agent>h2{
+    color: #1D80C1;
+    font-weight: bold;
+    margin: 15px;
+}
+.agent>img{
+    width: 35%;
+    margin-bottom: 15px;
+}
+.agent>p{
+    width: 60%;
+}
+.agent>p span{
+    color: #1D80C1;
+    font-weight: bold;
+}
+.agent>p a{
+    color: blue;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    padding: 50px;
+    background-color: #1D80C1;  
+    color: #fff;
+}
+.contact>h2,iframe,p{
+    margin: 20px;
+}
+.contact>p{
+    background-color: #000;
+    color: #fff;
+    padding: 20px 15px;
+    font-size: 18px;
+}
+.contact>p span{
+    color: #F0F331;
+    font-weight: bold;
+}
+.contact>ul li{
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+.contact>ul>li a{
+    color: #1D80C1;    
+}
